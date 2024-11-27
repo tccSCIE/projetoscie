@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+/*
+    paleta do projeto:
+    #FF914D;
+    #4DFBFF;
+    #6CA8AA
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, nav, main, footer{
+    max-width: 800px;
+    margin: auto;
+}
+:root{
+    --cor0: #FF914D;
+    --cor1: #4DFBFF;
+    --cor2: #6CA8AA;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+body{
+    background-color: #FF914D;
+}
+
+header{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+header > h1{
+    text-align: center;
+}
+h2{
+    margin: 20px 10px;
+}
+h3{
+    margin: 20px 10px;
+}
+header > p{
+    width: 450px;
+    margin: 20px 10px 10px 10px;
+}
+header > img{
+    width: 200px;
+    height: 200px;
+}
+
+nav{
+    outline-style: double;
+    background-color: #adfeff;
+    margin: 10px;
+}
+nav >a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav>a:hover{
+    text-decoration: double;
+    color: #FF914D;
+}
+
+main{
+    border-radius: 5px;
+    padding: 20px;
+    outline-color: black;
+    outline-style: double;
+    background-color: white;
+    margin: 10px;
+}
+footer{
+    background-color: #4DFBFF;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline-style: double;
+}
