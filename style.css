@@ -45,6 +45,9 @@ h3{
 p{
     text-align: justify;
 }
+main > p{
+    margin: 10px;
+}
 header > p{
     margin: 20px 10px 10px 10px;
 }
