@@ -24,6 +24,7 @@ header, nav, main, footer{
 }
 body{
     background-color: #FF914D;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
 header{
