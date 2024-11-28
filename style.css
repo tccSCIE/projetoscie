@@ -38,6 +38,9 @@ header > h1{
     text-align: center;
     font-size: 2em;
 }
+h1#grafico{
+    margin-bottom: 10px;
+}
 h2{
     margin: 20px 10px;
 }
