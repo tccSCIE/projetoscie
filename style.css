@@ -32,6 +32,8 @@ header{
     margin: 10px;
     border-radius: 10px;
     background-color: white;
+    outline-color: black;
+    outline-style: double;
 }
 header > h1{
     text-align: center;
