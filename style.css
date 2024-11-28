@@ -13,7 +13,9 @@
 }
 header, nav, main, footer{
     max-width: 800px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 :root{
     --cor0: #FF914D;
@@ -24,19 +26,17 @@ header, nav, main, footer{
 }
 body{
     background-color: #FF914D;
-    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
 }
 
 header{
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 10px auto 0px auto;
+    border-radius: 10px 10px 0px 0px;
     background-color: white;
-    outline-color: black;
-    outline-style: double;
 }
 header > h1{
     text-align: center;
+    font-size: 2em;
 }
 h2{
     margin: 20px 10px;
@@ -47,21 +47,55 @@ h3{
 p{
     text-align: justify;
 }
-main > p{
-    margin: 10px;
-}
 header > p{
     margin: 20px 10px 10px 10px;
 }
-header > img{
+div#imagem{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+div#imagem > img{
     width: 200px;
     height: 200px;
 }
+div#entrar{
+    background-color: #4DFBFF;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    border-radius: 30px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 1px;
+}
+div > p{
+    padding: 5px;
+    text-align: center;
+}
+a.link {
+    text-decoration: none;
+    color: black;
+}
 
 nav{
-    outline-style: double;
     background-color: #adfeff;
-    margin: 10px;
+    margin: 0px auto;
+    max-width: 800px;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+}
+nav >a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav>a:hover{
+    text-decoration: double;
+    color: #FF914D;
 }
 nav >a{
     text-decoration: none;
@@ -74,17 +108,13 @@ nav>a:hover{
 }
 
 main{
-    border-radius: 5px;
-    padding: 20px;
-    outline-color: black;
-    outline-style: double;
+    border-radius: 0px 0px 10px 10px;
     background-color: white;
-    margin: 10px;
+    margin: 0px auto 10px auto;
 }
 footer{
     background-color: #4DFBFF;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px auto;
     border-radius: 10px;
     outline-style: double;
 }
